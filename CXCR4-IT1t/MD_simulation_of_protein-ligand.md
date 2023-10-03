@@ -1,6 +1,6 @@
 # How to run a Molecular Dynamics simulation of protein-ligand complex
 
-![Include](/images/cover_figure.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/37b51c574b79065e175c76e51e899b9447cf8779/CXCR4-IT1t/images/cover_figure.png)
 
 ## 1. Context of the project
 
