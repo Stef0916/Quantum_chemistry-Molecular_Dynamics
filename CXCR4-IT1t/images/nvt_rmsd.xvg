@@ -1,0 +1,39 @@
+# This file was created Sun Jul  9 13:23:09 2023
+# Created by:
+#                   :-) GROMACS - gmx rms, 2023.1-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2023.1/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2023.1
+# Working dir:  /Users/stefani/Library/CloudStorage/GoogleDrive-stefanigamboaramirez@gmail.com/My Drive/Bioinformatics-docking-molecular-dynamics/Molecular-Dynamics/Tutorials-gromacs/CXCR4/Real-try/complex
+# Command line:
+#   gmx rms -f nvt.xtc -s nvt.tpr -o nvt_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0000622
+   1.0000000    0.0246336
+   2.0000000    0.0234385
+   3.0000000    0.0229679
+   4.0000000    0.0229264
+   5.0000000    0.0233218
+   6.0000000    0.0228814
+   7.0000000    0.0221686
+   8.0000000    0.0223597
+   9.0000000    0.0227778
+  10.0000000    0.0212222
+  11.0000000    0.0228303
+  12.0000000    0.0233241
+  13.0000000    0.0225585
+  14.0000000    0.0225144
+  15.0000000    0.0229964
+  16.0000000    0.0222619
+  17.0000000    0.0223669
+  18.0000000    0.0230440
+  19.0000000    0.0227476
+  20.0000000    0.0223214

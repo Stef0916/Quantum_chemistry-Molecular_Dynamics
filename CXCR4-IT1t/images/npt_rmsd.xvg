@@ -1,0 +1,39 @@
+# This file was created Sun Jul  9 13:25:11 2023
+# Created by:
+#                   :-) GROMACS - gmx rms, 2023.1-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2023.1/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2023.1
+# Working dir:  /Users/stefani/Library/CloudStorage/GoogleDrive-stefanigamboaramirez@gmail.com/My Drive/Bioinformatics-docking-molecular-dynamics/Molecular-Dynamics/Tutorials-gromacs/CXCR4/Real-try/complex
+# Command line:
+#   gmx rms -f npt.xtc -s npt.tpr -o npt_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0004961
+   1.0000000    0.0239571
+   2.0000000    0.0234288
+   3.0000000    0.0231462
+   4.0000000    0.0237032
+   5.0000000    0.0241611
+   6.0000000    0.0244811
+   7.0000000    0.0237399
+   8.0000000    0.0229775
+   9.0000000    0.0232347
+  10.0000000    0.0245129
+  11.0000000    0.0245939
+  12.0000000    0.0236540
+  13.0000000    0.0247145
+  14.0000000    0.0232320
+  15.0000000    0.0243615
+  16.0000000    0.0238248
+  17.0000000    0.0241385
+  18.0000000    0.0246194
+  19.0000000    0.0238693
+  20.0000000    0.0241356

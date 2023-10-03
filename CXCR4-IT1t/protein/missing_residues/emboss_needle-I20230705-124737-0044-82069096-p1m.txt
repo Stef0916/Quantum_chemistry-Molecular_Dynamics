@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed  5 Jul 2023 12:47:44
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230705-124737-0044-82069096-p1m.asequence
+#    -bsequence emboss_needle-I20230705-124737-0044-82069096-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 508
+# Identity:     418/508 (82.3%)
+# Similarity:   418/508 (82.3%)
+# Gaps:          90/508 (17.7%)
+# Score: 2134.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------------------------------NFNKIF      6
+                                                                 ||||||
+EMBOSS_001         1 DYKDDDDAGAPEGISIYTSDNYTEEMGSGDYDSMKEPCFREENANFNKIF     50
+
+EMBOSS_001         7 LPTIYSIIFLTGIVGNGLVILVMGYQKKLRSMTDKYRLHLSVADLLFVIT     56
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001        51 LPTIYSIIFLTGIVGNGLVILVMGYQKKLRSMTDKYRLHLSVADLLFVIT    100
+
+EMBOSS_001        57 LPFWAVDAVANWYFGNFLCKAVHVIYTVNLYSSVWILAFISLDRYLAIVH    106
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       101 LPFWAVDAVANWYFGNFLCKAVHVIYTVNLYSSVWILAFISLDRYLAIVH    150
+
+EMBOSS_001       107 ATNSQRPRKLLAEKVVYVGVWIPALLLTIPDFIFANVSEADDRYICDRFY    156
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       151 ATNSQRPRKLLAEKVVYVGVWIPALLLTIPDFIFANVSEADDRYICDRFY    200
+
+EMBOSS_001       157 PNDLWVVVFQFQHIMVGLILPGIVILSCYCIIISKL-------------D    193
+                     ||||||||||||||||||||||||||||||||||||             |
+EMBOSS_001       201 PNDLWVVVFQFQHIMVGLILPGIVILSCYCIIISKLSHSGSNIFEMLRID    250
+
+EMBOSS_001       194 EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITK    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       251 EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITK    300
+
+EMBOSS_001       244 DEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETG    293
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       301 DEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETG    350
+
+EMBOSS_001       294 VAGF--SLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWD-    340
+                     ||||  ||||||||||||||||||||||||||||||||||||||||||| 
+EMBOSS_001       351 VAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDA    400
+
+EMBOSS_001       341 --------RKALKTTVILILAFFACWLPYYIGISIDSFILLEIIKQGCEF    382
+                             ||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       401 YGSKGHQKRKALKTTVILILAFFACWLPYYIGISIDSFILLEIIKQGCEF    450
+
+EMBOSS_001       383 ENTVHKWISITEALAFFHCCLNPILYAFLGAKFKTS--------------    418
+                     ||||||||||||||||||||||||||||||||||||              
+EMBOSS_001       451 ENTVHKWISITEALAFFHCCLNPILYAFLGAKFKTSAQHALTSVSRGSSG    500
+
+EMBOSS_001       419 --------    418
+                             
+EMBOSS_001       501 RPLEVLFQ    508
+
+
+#---------------------------------------
+#---------------------------------------
