@@ -44,7 +44,7 @@ grep -v HOH protein.pdb > protein_clean.pdb
 
 Before using the protein for any MD simulation, it is necessary to always inspect the .pdb file for entries labelled as MISSING RESIDUES. This means that atoms of entire parts of the protein are missing in the crystal structure. If the missing part is on the terminal region, this might not be a problem for the MD simulation. However, any internal sequences with missing atoms or amino acid residues with absent atoms will lead to errors during the creation of the topology file.
 
-<img src="/images/missing_residues.png" alt="Missing Residues"></img>
+<img src="/images/missing%20residues.png" width="900" height="300" title="Missing Residue">
 
 In the folder [“/protein/missing_residues”](/protein/missing_residues/) you will find all the files and scripts used to retrieve the missing residues of the protein if needed. Please, follow the instructions in MODELLER for further details.
 
