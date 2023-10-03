@@ -1,6 +1,6 @@
 # Analysis of Relationship Between Variables
 
-This document provides an overview of the relationship between the variables ΘΘ, αα, and JJ. It discusses the feature engineering process, the derived equation, and the nature of solutions we observed.
+This document provides an overview of the relationship between the variables Θ, α, and J. It discusses the feature engineering process, the derived equation, and the nature of solutions we observed.
 
 ## 1. Feature Engineering
 
