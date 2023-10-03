@@ -136,22 +136,22 @@ gmx editconf -f ligand.pdb -o ligand.gro
 
 - #### **2.3.2 In the complex.gro file, I added the coordinates of the ligand.gro at the end of complex.gro before the box vector.**
 
-![Coordinates of the Ligand](/images/coordinates_of_the_ligand.png)
+![Coordinates of the Ligand](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/coordinates_of_the_ligand.png)
 
 
 ### <u>2.4 Build the complex topology file</u>
 
 - #### **2.4.1 ligand.itp:** insert the **#include** into the topol.top after the position restrain of the protein
 
-![Include](/images/include.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/include.png)
 
 - #### **2.4.2 Include new geometrical parameters from the ligand.prm at the top of the topol.top, after “include forcefield parameters”**
 
-![Include](/images/geometrical_parameters%20.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/geometrical_parameters%20.png)
 
 - #### **2.4.2 At the end of the topol.top file include the ligand and number of molecules.**
 
-![Include](/images/ligand_and_number_of_molecules.png)
+![Include](/images/https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/ligand_and_number_of_molecules.png)
 
 
 ### <u>2.5 Defining the Unit Cell and Solvate the System</u>
@@ -237,7 +237,7 @@ gmx mdrun -v -deffnm em
 After this step, ensure convergence by checking the energy minimization graph [/images/potential.xvg](images/potential.xvg)
 
 
-![Include](/images/potential.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/potential.png)
 
 
 ## 4. Equilibration
@@ -264,7 +264,7 @@ gmx genrestr -f ligand.gro -n index_ligand.ndx -o posre_ligand.itp -fc 1000 1000
 
 Now, the ligand restraints need to be added to the topology file:
 
-![Include](/images/posre_lig.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/posre_lig.png)
 
 
 2. Treatment of temperature of coupling groups: 
@@ -329,7 +329,7 @@ gmx mdrun -deffnm npt
 
 After this step, ensure convergence by checking the pressure and temperature  graph ([“/images/temperature.xvg”]() and [“/images/pressure.xvg”]()). The RMSD of the backbone is also a good practice to be checked after equilibration. The files are stored in the “/images/ folder.
 
-![Include](/images/pressure.png) ![Include](/images/temperature.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/pressure.png) ![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/temperature.png)
 
 After equilibration, several output files are generated. The exact files you get depend on the settings you use in your .mdp file. However, commonly generated files after equilibration include:
 
@@ -396,10 +396,10 @@ gmx trjconv -s md_0_02.tpr -f md_0_02.xtc -o md_0_02_center.xtc -center -pbc mol
 
 After this, depending on the purpose of the MD simulation, a huge set of analyses can be performed. In this particular case, I was interested for example, about the interaction between the ligand and the protein residues. 
 
-![Include](/images/it1t-protein_1_distance.png)
-![Include](/images/it1t-protein_2_distance.png)
-![Include](/images/it1t-protein_3_distance.png)
-![Include](/images/it1t-protein_4_distance.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/it1t-protein_1_distance.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/it1t-protein_2_distance.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/it1t-protein_3_distance.png)
+![Include](https://github.com/Stef0916/computational_chemistry/blob/d672ba0ea5b63541ce1db00c9f77b9776dc27144/CXCR4-IT1t/images/it1t-protein_4_distance.png)
 
 
 ## 7. References
